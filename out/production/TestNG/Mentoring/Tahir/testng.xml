@@ -1,0 +1,13 @@
+
+<suite name="All Test Suite">
+    <test name= "TestA">
+        <classes>
+            <class name="Mentoring.Tahir.ClassA">
+                <methods>
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+

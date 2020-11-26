@@ -1,0 +1,9 @@
+
+<suite name="All Test Suite">
+    <test name="test1">
+        <classes>
+            <class name="Gun09._04_PlaceOrderPOM">
+            </class>
+        </classes>
+    </test>
+</suite>

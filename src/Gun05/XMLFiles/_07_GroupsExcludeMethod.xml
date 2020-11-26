@@ -1,0 +1,21 @@
+<suite name="suit1">  <!--Tüm testleri kapsayan bölüm-->
+
+    <test name="test1">  <!--test 1 i kapsayan bölüm-->
+
+        <groups>
+            <run>
+                <include name="SmokeTest" ></include>
+            </run>
+        </groups>
+
+        <classes>  <!--çalışcak classların yazıldığı bölüm-->
+            <class name="Gun05._03_Groups">
+                <methods> <!--belirli bir gruba ait testlerden çalışmasını istemediğimz testi hariç tutmuş olduk-->
+                    <exclude name="Test3"></exclude>
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+
+</suite>

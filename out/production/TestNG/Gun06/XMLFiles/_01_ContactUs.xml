@@ -1,0 +1,10 @@
+<suite name="suit1">
+
+    <test name="test1">
+        <parameter name="enquiry" value="Merhabalar, artik biz geliyoruz ... 8 hafta sonra ..."></parameter>
+        <classes>
+            <class name="Gun06._01_ContactUs"></class>
+        </classes>
+    </test>
+
+</suite>

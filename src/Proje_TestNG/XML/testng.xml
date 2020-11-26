@@ -1,0 +1,12 @@
+
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="">
+        <classes>
+            <class name="Proje_TestNG.Task1">
+                <methods>
+                    <include name="addToWishList"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

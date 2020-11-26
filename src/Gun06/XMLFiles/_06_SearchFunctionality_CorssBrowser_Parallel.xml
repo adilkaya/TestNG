@@ -1,0 +1,21 @@
+<suite name="suit1"     parallel="tests" thread-count="2">
+
+    <test name="test1">
+        <parameter name="browser" value="firefox"></parameter>
+        <parameter name="arananKelime" value="samsung"></parameter>
+
+        <classes>
+            <class name="Gun06._04_SearchFunctionality"></class>
+        </classes>
+    </test>
+
+    <test name="test2">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="arananKelime" value="samsung"></parameter>
+
+        <classes>
+            <class name="Gun06._05_SearchFunctionality"></class>
+        </classes>
+    </test>
+
+</suite>
